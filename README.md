@@ -185,7 +185,9 @@
     3.5 知识要点
 
 **2.[SpringMVC数据请求与响应](docs/java/framework/springMVC/2/SpringMVC数据请求与响应.md)**
+
 **SpringMVC的数据响应**
+
    01-SpringMVC的数据响应-数据响应方式(理解)
    
    02-SpringMVC的数据响应-页面跳转-返回字符串形式（应用）
@@ -207,6 +209,7 @@
    10-SpringMVC的数据响应-知识要点小结(理解，记忆)
 
 **SpringMVC的请求**
+
    11-SpringMVC的请求-获得请求参数-请求参数类型(理解)
 
    12-SpringMVC的请求-获得请求参数-获得基本类型参数(应用)
