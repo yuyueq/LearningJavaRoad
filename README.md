@@ -100,7 +100,7 @@
     - 3) 切点表达式的抽取
   - 2.3 知识要点
 
-+ 3**.基于注解的 AOP 开发**
++ 3 **.基于注解的 AOP 开发**
   
   - 3.1 快速入门
   - 3.2 注解配置 AOP 详解
@@ -151,22 +151,38 @@
 **1.[Spring与Web环境集成即入门](docs/java/framework/springMVC/1/Spring与Web环境集成即入门.md)**
 
 1. **Spring与Web环境集成**
-1.1 ApplicationContext应用上下文获取方式
-1.2 Spring提供获取应用上下文的工具
-1.3 导入Spring集成web的坐标
-1.4 配置ContextLoaderListener监听器
-1.5 通过工具获得应用上下文对象
+
+    1.1 ApplicationContext应用上下文获取方式
+
+    1.2 Spring提供获取应用上下文的工具
+
+    1.3 导入Spring集成web的坐标
+
+    1.4 配置ContextLoaderListener监听器
+
+    1.5 通过工具获得应用上下文对象
+
 2. **SpringMVC的简介**
-2.1 SpringMVC概述
-2.3 SpringMVC快速入门
-2.3 SpringMVC流程图示
-2.4 知识要点
+
+    2.1 SpringMVC概述
+
+    2.3 SpringMVC快速入门
+
+    2.3 SpringMVC流程图示
+
+    2.4 知识要点
+
 3. **SpringMVC的组件解析**
-3.1 SpringMVC的执行流程
-3.2 SpringMVC组件解析
-3.3 SpringMVC注解解析
-3.4 SpringMVC的XML配置解析
-3.5 知识要点
+
+    3.1 SpringMVC的执行流程
+
+    3.2 SpringMVC组件解析
+
+    3.3 SpringMVC注解解析
+
+    3.4 SpringMVC的XML配置解析
+
+    3.5 知识要点
 
 **2.[SpringMVC数据请求与响应](docs/java/framework/springMVC/2/SpringMVC数据请求与响应.md)**
 **SpringMVC的数据响应**
@@ -311,17 +327,16 @@
 ## MyBatis
 **1.[Mybatis快速入门](docs/java/framework/Mybatis/1/Mybatis快速入门.md)**
 
-1.**Mybatis简介**
+1. **Mybatis简介**
+   1.1原始jdbc操作（查询数据）
 
-	1.1原始jdbc操作（查询数据）
+   1.2原始jdbc操作（插入数据）
 
-	1.2原始jdbc操作（插入数据）
+	 1.3 原始jdbc操作的分析
 
-	1.3 原始jdbc操作的分析
+   1.4 什么是Mybatis
 
-	1.4 什么是Mybatis
-
-2.**Mybatis的快速入门**
+2. **Mybatis的快速入门**
 
 	2.1 MyBatis开发步骤
 
@@ -331,9 +346,9 @@
 
 	2.4 知识小结
 
-3.**MyBatis的映射文件概述**
+3. **MyBatis的映射文件概述**
 
-4.**MyBatis的增删改查操作**
+4. **MyBatis的增删改查操作**
 
 	4.1 MyBatis的插入数据操作
 
@@ -343,7 +358,7 @@
 
 	4.4 知识小结
 
-5.**MyBatis核心配置文件概述**
+5. **MyBatis核心配置文件概述**
 
 	5.1 MyBatis核心配置文件层级关系
 
@@ -351,134 +366,132 @@
 
 **2.[Mybatis的dao层实现原理](docs/java/framework/Mybatis/2/Mybatis的dao层实现原理.md)**
 
-1.**Mybatis的Dao层实现**
+1. **Mybatis的Dao层实现**
 
-	1.1 **传统开发方式**
+    1.1 **传统开发方式**
 
-		1.1.1编写UserDao接口
+    1.1.1编写UserDao接口
 
-		1.1.2.编写UserDaoImpl实现
+    1.1.2.编写UserDaoImpl实现
 
-		1.1.3 测试传统方式
+	  1.1.3 测试传统方式
 
-	1.2 **代理开发方式**
+    1.2 **代理开发方式**
 
-		1.2.1 代理开发方式介绍
+	  1.2.1 代理开发方式介绍
 
-		1.2.2 编写UserMapper接口
+    1.2.2 编写UserMapper接口
 
-		1.2.3测试代理方式
+    1.2.3测试代理方式
 
 	1.3 **知识小结**
 
-2.**MyBatis映射文件深入**
+2. **MyBatis映射文件深入**
 
 	2.1 **动态sql语句**
+		2.1.1 动态sql语句概述
+    
+	  2.1.2 动态 SQL 之<if>
 
-		2.1.1动态sql语句概述
-
-		2.1.2动态 SQL 之<if>
-
-		2.1.3 动态 SQL 之<foreach>
+	  2.1.3 动态 SQL 之<foreach>
 
 
 **3.[Mybatis的多表操作](docs/java/framework/Mybatis/3/Mybatis的多表操作.md)**
 
-1.**Mybatis多表查询**
+1. **Mybatis多表查询**
 
 	1.1 **一对一查询**
-
 		1.1.1 一对一查询的模型MapperScannerConfigurer
 
-		1.1.2一对一查询的语句
+	  1.1.2一对一查询的语句
 
-		1.1.3 创建Order和User实体
+	  1.1.3 创建Order和User实体
 
-		1.1.4 创建OrderMapper接口
+    1.1.4 创建OrderMapper接口
 
-		1.1.5 配置OrderMapper.xml
+	  1.1.5 配置OrderMapper.xml
 
-		1.1.6 测试结果
+    1.1.6 测试结果
 
 	1.2 **一对多查询**
 
-		1.2.1 一对多查询的模型
+	  1.2.1 一对多查询的模型
 
-		1.2.2 一对多查询的语句
+	  1.2.2 一对多查询的语句
 
-		1.2.3 修改User实体
+	  1.2.3 修改User实体
 
-		1.2.4 创建UserMapper接口
+	  1.2.4 创建UserMapper接口
 
-		1.2.5 配置UserMapper.xml
+	  1.2.5 配置UserMapper.xml
 
-		1.2.6 测试结果
+	  1.2.6 测试结果
 
 	1.3 **多对多查询**
 
-		1.3.1 多对多查询的模型
+	  1.3.1 多对多查询的模型
 
-		1.3.2 多对多查询的语句
+	  1.3.2 多对多查询的语句
 
-		1.3.3 创建Role实体，修改User实体
+	  1.3.3 创建Role实体，修改User实体
 
-		1.3.4 添加UserMapper接口方法
+	  1.3.4 添加UserMapper接口方法
 
-		1.3.5 配置UserMapper.xml
+	  1.3.5 配置UserMapper.xml
 
-		1.3.6 测试结果
+	  1.3.6 测试结果
 
 	1.4 **知识小结**
 
 2.**Mybatis的注解开发**
 
-	2.1 MyBatis的常用注解
+  2.1 **MyBatis的常用注解**
 
-	2.2 MyBatis的增删改查
+  2.2 **MyBatis的增删改查**
 
-	2.3 MyBatis的注解实现复杂映射开发
+  2.3 **MyBatis的注解实现复杂映射开发**
 
-	2.4 一对一查询
+  2.4 **一对一查询**
 
-		2.4.1 一对一查询的模型
+  2.4.1 一对一查询的模型
 
-		2.4.2 一对一查询的语句
+  2.4.2 一对一查询的语句
 
-		2.4.3 创建Order和User实体
+  2.4.3 创建Order和User实体
 
-		2.4.4 创建OrderMapper接口
+  2.4.4 创建OrderMapper接口
 
-		2.4.5 使用注解配置Mapper
+  2.4.5 使用注解配置Mapper
 
-		2.4.6 测试结果
+  2.4.6 测试结果
 
-	2.5 一对多查询
+  2.5 **一对多查询**
 
-		2.5.1 一对多查询的模型
+  2.5.1 一对多查询的模型
 
-		2.5.2 一对多查询的语句
+  2.5.2 一对多查询的语句
 
-		2.5.3 修改User实体
+  2.5.3 修改User实体
 
-		2.5.4 创建UserMapper接口
+  2.5.4 创建UserMapper接口
 
-		2.5.5 使用注解配置Mapper
+  2.5.5 使用注解配置Mapper
 
-		2.5.6 测试结果
+  2.5.6 测试结果
 
-	2.6 多对多查询
+  2.6 **多对多查询**
 
-		2.6.1 多对多查询的模型
+   2.6.1 多对多查询的模型
 
-		2.6.2 多对多查询的语句
+   2.6.2 多对多查询的语句
 
-		2.6.3 创建Role实体，修改User实体
+   2.6.3 创建Role实体，修改User实体
 
-		2.6.4 添加UserMapper接口方法
+   2.6.4 添加UserMapper接口方法
 
-		2.6.5 使用注解配置Mapper
-
-		2.6.6 测试结果
+   2.6.5 使用注解配置Mapper
+  
+   2.6.6 测试结果
 
 
 **4.[SSM整合](docs/java/framework/Mybatis/4/SSM整合.md)**
